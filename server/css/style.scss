@@ -1,0 +1,35 @@
+/* ==== Color Variables ==== */
+$green: #7dce71;
+/* ==== Fonts ==== */
+
+
+
+/* ===== Home ===== */
+
+.form-container {
+  padding: 0 10%;
+
+  .form-header {
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 15px;
+  }
+
+  .input {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .add-button {
+    text-decoration: none;
+    color: white;
+    background-color: $green;
+    border-radius: 7px;
+    font-size: 1.2em;
+    padding: 5px 7px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: none;
+  }
+
+}

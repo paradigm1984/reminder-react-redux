@@ -1,0 +1,72 @@
+/* ==== Color Variables ==== */
+$silver: #edf2f9;
+$darkBlue: #1c1e21;
+$darkGray: #37383a;
+
+
+body {
+  background-color: $darkGray;
+
+  /* ==== Header ==== */
+  .nav-bar {
+
+    background-color: $darkBlue;
+    // background-color: $darkBlue;
+
+    .navbar-toggler {
+      background-color: $silver !important;
+      padding: 1px 3px !important;
+      margin: 10px 0px !important;
+    }
+
+    .nav-brand {
+      color: $silver;
+      font-size: 1.8em;
+      width: 40%;
+    }
+
+    .link-nav {
+      margin: 4px 0px;
+      color: $silver !important;
+    }
+
+  }
+
+  /* ==== Home Page ==== */
+
+  .hp-photo {
+
+    background-image: url("../imgs/751.jpg") !important;
+    padding: 2% 0%;
+
+    .photo-header {
+      text-align: center;
+      color: $silver;
+      margin-top: 10px;
+    }
+
+  }
+
+
+  /* ==== Footer ==== */
+
+  .push {
+    height: 60px;
+  }
+
+  .footer {
+      position: relative;
+      margin-top: 70px;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      background-color: $darkBlue;
+      padding: 20px;
+
+      .footer-text {
+      	text-align: center;
+      	color: $silver;
+      	margin: 0px;
+      }
+  }
+}
