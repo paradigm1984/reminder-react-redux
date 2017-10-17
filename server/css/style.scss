@@ -3,10 +3,14 @@ $green: #7dce71;
 $red: #e03000;
 $gray: #D9D9D9;
 /* ==== Fonts ==== */
+// font-family: 'Merriweather Sans', sans-serif;
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
 
 .nav-bar {
   background-color: #7dce71;
-  background-image: url("../imgs/always-grey.png");
   border-bottom: 2px solid $gray;
 
   .toggle-color {
@@ -15,7 +19,9 @@ $gray: #D9D9D9;
 
   .nav-brand {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-weight: bolder;
+    letter-spacing: .1em;
   }
 
   .ml-auto {
