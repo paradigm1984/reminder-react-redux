@@ -1,35 +1,120 @@
 /* ==== Color Variables ==== */
 $green: #7dce71;
+$red: #e03000;
+$gray: #D9D9D9;
 /* ==== Fonts ==== */
 
+.nav-bar {
+  background-color: #7dce71;
+  background-image: url("../imgs/always-grey.png");
+  border-bottom: 2px solid $gray;
+
+  .toggle-color {
+    color: $gray;
+  }
+
+  .nav-brand {
+    color: white;
+    font-size: 1.2em;
+  }
+
+  .ml-auto {
+
+    .link-nav{
+      color: white;
+    }
+  }
+}
 
 
-/* ===== Home ===== */
 
 .form-container {
-  padding: 0 10%;
 
   .form-header {
     text-align: center;
-    font-size: 1.9em;
-    margin-bottom: 15px;
+    font-size: 1.4em;
+    margin: 3% 0;
   }
 
-  .input {
+  .reminder-input {
+    text-align: center;
+
+    .input {
+      margin: auto;
+      width: 70%;
+      margin-bottom: 3%;
+    }
+
+    .date {
+      width: 30%;
+      margin: auto;
+      margin-bottom: 3%;
+    }
+
+    .add-button {
+      text-decoration: none;
+      color: white;
+      font-weight: bolder;
+      background-color: $green;
+      border-radius: 10px;
+      padding: .7% 2%;
+      // margin: 0 45.5% 2% 45.5%;
+      border: none;
+      margin-bottom: 4%;
+    }
+  }
+
+
+  .reminders-list {
+    text-align: center;
+    border: 1px solid $gray;
+    border-radius: 5px;
+    width: 60%;
+    height: 95px;
     margin: auto;
-    margin-bottom: 15px;
-  }
+    padding: 2%;
+    margin-bottom: 3%;
 
-  .add-button {
-    text-decoration: none;
-    color: white;
-    background-color: $green;
-    border-radius: 7px;
-    font-size: 1.2em;
-    padding: 5px 7px;
-    margin: auto;
-    margin-bottom: 15px;
-    border: none;
-  }
+    .reminder-item {
+      display: inline-block;
+      width: 65%;
+      float: left;
+      text-align: left;
+    }
 
+    .reminder-time {
+      font-size: .8em;
+      margin: .5% 0;
+    }
+
+    .reminder-text {
+      font-size: 1.1em;
+      margin: .5% 0;
+    }
+
+    .bold {
+      font-weight: bolder;
+    }
+
+    .x-button {
+      display: inline;
+      text-decoration: none;
+      color: white;
+      background-color: $red;
+      font-size: 1.2em;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 7px;
+      margin: auto;
+      font-weight: bolder;
+      float: right;
+      margin: 4% 2% 4% 0;
+      vertical-align: middle;
+    }
+  }
+}
+
+.footer {
+  margin-top: 11%;
+  color: $green;
 }
