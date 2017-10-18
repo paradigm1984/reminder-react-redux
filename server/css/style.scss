@@ -39,7 +39,7 @@ body {
   .form-header {
     text-align: center;
     font-size: 1.4em;
-    margin: 3% 0;
+    margin: 3% 0 1% 0;
   }
 
   .reminder-input {
@@ -49,6 +49,11 @@ body {
       margin: auto;
       width: 70%;
       margin-bottom: 3%;
+    }
+
+    .date-title {
+      margin: auto;
+      margin-bottom: .7%;
     }
 
     .date {

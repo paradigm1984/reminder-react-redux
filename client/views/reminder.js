@@ -67,6 +67,7 @@ class Reminder extends Component {
         <h3 className="form-header"> What would you like to remember? </h3>
         <FormGroup className="reminder-input">
           <Input className="input form-control" type="text" ref="form" value={ this.state.text } onChange={ event => this.setState({text: event.target.value}) } placeholder="I need to..." />
+          <p className="date-title"> When is it due? <em>(Month, Day, Year and Time)</em>. </p>
           <Input className="date form-control" type="datetime-local" ref="form" value={ this.state.dueDate } onChange={ event => this.setState({dueDate: event.target.value}) } />
           <button className="add-button" onClick={ () => this.reminder() }> Add It! </button>
         </FormGroup>
