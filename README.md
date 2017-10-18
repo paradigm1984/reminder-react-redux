@@ -66,18 +66,4 @@ A CRUD web application built with React and Redux. The user can create and delet
 
 ### Link to the live site
 
-https://polar-waters-92149.herokuapp.com/
-
-
-### Installation
-
-Loginapp requires [Node.js](https://nodejs.org/) v4+ to run.
-
-
-```sh
-$ npm install
-```
-
-```sh
-$ npm start
-```
+https://reminder-basic.herokuapp.com/
