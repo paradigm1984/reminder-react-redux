@@ -47,17 +47,21 @@ A CRUD web application built with React and Redux. The user can create and delet
 
 ![alt text](screenshots/1.png "home")
 
+
 #### The user then enters a reminder and a date for it to be completed.
 
 ![alt text](screenshots/2.png "add reminder")
+
 
 #### The reminder gets added to the DOM.
 
 ![alt text](screenshots/3.png "saved to dom")
 
+
 #### The user can add multiple reminders. Since the reminders are stored in the users browser as cookies, the reminders will remain after a page refresh.
 
 ![alt text](screenshots/4.png "add another")
+
 
 #### Reminders can also be deleted by clicking the red x on the right hand side.
 
