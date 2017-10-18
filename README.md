@@ -18,6 +18,7 @@ A CRUD web application built with React and Redux. The user can create and delet
 - Webpack
 - Babel
 - bootstrap
+- reactstrap
 - css-loader
 - express
 - moment
